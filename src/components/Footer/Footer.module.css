@@ -1,0 +1,19 @@
+.container {
+  background-color: #f1f4f8;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container h1 {
+  font-weight: normal;
+  color: #335eea;
+}
+.container p {
+  color: #93a5bf;
+  margin: 10px 0px;
+}

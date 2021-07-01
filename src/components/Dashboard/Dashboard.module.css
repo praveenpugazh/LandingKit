@@ -1,0 +1,53 @@
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 70vh;
+}
+.textContent {
+  margin-top: 6rem;
+  flex: 1;
+}
+.textContent h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.textContent h1 span {
+  color: #335eea;
+}
+.textContent p {
+  color: #9aabc3;
+  line-height: 1;
+  margin: 1rem 0rem;
+  font-size: 1.3rem;
+}
+
+.imageContent {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  flex: 1;
+}
+.imageContent img {
+  width: 110%;
+  object-fit: contain;
+  box-shadow: -4px 0px 10px rgba(51, 94, 234, 0.3);
+}
+
+.blueText {
+  color: #335eea;
+}
+.flexContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.flexContainer h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.flexContainer img {
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 4px;
+}

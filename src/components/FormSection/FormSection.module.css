@@ -1,0 +1,76 @@
+.container {
+  background-color: #f9fbfd;
+}
+
+.content {
+  width: 80%;
+  margin: 3rem auto 0rem;
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.formImg {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+}
+.formImg img {
+  width: 100%;
+}
+.form {
+  padding: 15px;
+  background-color: white;
+}
+.form input {
+  width: 100%;
+  padding: 20px 0px;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  font-size: 1.2rem;
+  color: #9aabc3;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 13px;
+  background-color: #52ba96;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.textContent {
+  width: 60%;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+.textContent h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.greenText {
+  color: #52ba96;
+}
+.textContent p {
+  color: #9aabc3;
+  margin-top: 1rem;
+  line-height: 1.3;
+  font-size: 1.4rem;
+}
+
+.tick {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+}
+.tick p {
+  color: #52ba96;
+}

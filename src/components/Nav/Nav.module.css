@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo h1 {
@@ -29,4 +30,23 @@
   border: none;
   border-radius: 6px;
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .navBar {
+    flex-direction: column;
+  }
+  .pages {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 460px) {
+  .pages {
+    width: 50%;
+  }
+  .btn {
+    display: none;
+  }
 }
