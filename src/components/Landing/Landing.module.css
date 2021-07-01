@@ -1,8 +1,53 @@
 .container {
   width: 80%;
   margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+.textContent {
+  margin-top: 6rem;
+  flex: 1;
 }
 .textContent h1 {
   font-size: 3rem;
   font-weight: normal;
+  line-height: 1.5;
+}
+.textContent h1 span {
+  color: #335eea;
+}
+.textContent p {
+  color: #9aabc3;
+  line-height: 1;
+  margin: 1rem 0rem;
+  font-size: 1.4rem;
+}
+.viewBtn {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #335eea;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.docBtn {
+  padding: 12px 20px;
+  color: #335eea;
+  background-color: #ebedfc;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.imageContent {
+  margin-top: 5rem;
+  flex: 1;
+}
+.imageContent img {
+  width: 110%;
+  object-fit: contain;
 }
