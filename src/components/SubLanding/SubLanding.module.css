@@ -3,7 +3,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .container img {
@@ -19,4 +19,20 @@
 .content p {
   color: #9aabc3;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 460px) {
+  .textContent h2 {
+    font-size: 2rem;
+  }
+  .textContent p {
+    font-size: 1.2rem;
+  }
 }

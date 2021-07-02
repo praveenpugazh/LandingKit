@@ -8,7 +8,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.conatiner {
-  width: 85%;
-  margin: 20px auto;
+.empty-space {
+  width: 80%;
+  margin: 1rem auto;
+  min-height: 60vh;
+}
+
+a {
+  text-decoration: none;
 }

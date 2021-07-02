@@ -1,5 +1,27 @@
 .container {
   width: 100%;
   background-color: #ffffff;
+  border-top: 1px solid #e6e6e6;
+}
+.content {
   min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.container img {
+  width: 200px;
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .content img {
+    margin: 1rem;
+  }
 }

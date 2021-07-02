@@ -74,3 +74,40 @@
 .tick p {
   color: #52ba96;
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .textContent {
+    margin: 1rem;
+  }
+  .textContent h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .textContent p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .formDiv {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .textContent h2 {
+    font-size: 1.6rem;
+  }
+  .textContent p {
+    font-size: 1.2rem;
+  }
+  .formDiv {
+    width: 100%;
+  }
+  .tick {
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  }
+}
